@@ -8,6 +8,11 @@ Vector2D::Vector2D(double xy) noexcept
 	: x(xy), y(xy)
 {
 }
+Vector2D::Vector2D() noexcept
+	: x(0.0), y(0.0)
+{
+}
+
 
 Vector2D Vector2D::normalize() const
 {

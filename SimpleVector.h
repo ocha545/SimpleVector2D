@@ -17,6 +17,9 @@ public:
 	/// @brief ベクトルの成分を一つの値で設定します
 	/// @param xy
 	Vector2D(double xy) noexcept;
+
+	/// @brief ベクトルの成分を0で設定します
+	Vector2D() noexcept;
 	
 	/// @brief ベクトルの大きさが1になるベクトルを求めます
 	/// @return 
